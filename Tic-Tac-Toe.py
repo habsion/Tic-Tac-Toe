@@ -18,6 +18,7 @@ def who_win():
             t=l.count(l[0])
             if t==3:
                 return l[0]
+            
     # checking the diagonal lines
     if s[0][0]==s[1][1]==s[2][2]:
         return s[0][0]
