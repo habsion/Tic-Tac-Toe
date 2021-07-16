@@ -24,6 +24,7 @@ def who_win():
         return s[0][0]
     if s[0][2]==s[1][1]==s[2][0]:
         return s[0][2]
+    
     # if no one wins then we decide whether it's a draw or returns None if there are still moves remain
     return 'Tie!!!!' if None not in s[0]+s[1]+s[2] else None
 
